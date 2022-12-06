@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> Lista de produtos </h1>
+
+        <div class="form">
+            <span class="span">Adicione um novo produto</span>
+
+            <label class="label">Nome do produto: <input type="text" id="nome-produto"
+                    placeholder="Nome do produto" class="input">
+            </label>
+
+            <label class="label">Valor do produto: <input type="number" id="valor-produto"
+                    placeholder="Valor do produto s/ desconto" class="input">
+            </label>
+
+            <label class="label">Estoque: <input type="number" id="estoque-produto" placeholder="qtd em estoque"
+                    class="input">
+            </label>
+
+
+           
+
+            <button id="btn-salvar" onclick="lista.save()">Salvar</button>
+            <button id="btn-cancelar" onclick="lista.cancel()">Cancelar</button>
+            <button id="btn-armazenar" onclick="lista.storageSave()">Armazenar lista</button>
+            <button id="btn-recuperar" onclick="lista.getStorage()">Recuperar lista</button>
+
+        </div>
+        <table class="table" id="table" border="1">
+            <thead id="thead" class="thead">
+                <th>ID</th>
+                <th>Nome do produto</th>
+                <th>Valor do produto</th>
+                <th>Estoque</th>
+                <th>Ações</th>
+
+            </thead>
+            <tbody class="tbody" id="tbody">
+
+            </tbody>
+        </table>
+
+        
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

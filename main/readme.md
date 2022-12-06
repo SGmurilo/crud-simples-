@@ -1,0 +1,1 @@
+projeto de crud simples utilizado para adicionar, deletar, editar e armazenar utilizando ferramentas do javascript prara manipular arrays de armazenando dados com local storage.

@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(61, 26, 26);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.form{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+
+.span{
+    font-size: larger;
+    margin: 20px;
+}
+
+label{
+    margin: 10px;
+    background-color: rgb(51, 15, 15);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.table{
+    background-color: #ccc;
+    color: black;
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    margin: 40px;
+}
+img{
+    size: 30px;
+}
+
+
+
+
+
+
