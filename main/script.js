@@ -220,6 +220,7 @@ class Lista{
     let numDel = localStorage.delId = JSON.stringify(this.delId)
     console.log(local)
     console.log(numDel);
+    alert("Lista salva!")
 
     }
 
@@ -235,6 +236,8 @@ class Lista{
       this.delId = getDelId
       
       this.save()
+
+      
 
     }
 
